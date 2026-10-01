@@ -10,6 +10,7 @@
   <body class="works_on_smartphone">
     <header>
       <ul>
+        <li class="logo">&#9733;</li>
         <li><a href="index.html">Home</a></li>
         <li><a href="tweets.html">Tweets</a></li>
       </ul>
@@ -17,19 +18,25 @@
 
     <main>
       <article>
-        <h1>Main Title of the Page</h1>
-        <p>Welcome to my web page. This project explores basic HTML structure and tag relationships as part of web development fundamentals.</p>
+        <section class="hero-card">
+          <h1>Main Title of the Page</h1>
+          <p class="lead-text">Welcome to my web page. This project explores basic HTML structure, tag relationships, and custom styling as part of web development fundamentals.</p>
+        </section>
 
-        <h2>Subheading - Section Overview</h2>
-        <p>HTML provides the structural backbone for web documents. Every valid document relies on semantic elements to organize content effectively.</p>
-        <p>Using proper heading levels hierarchy ensures that content remains readable, accessible, and easily navigable by web browsers and assistive technologies.</p>
+        <section class="content-card">
+          <h2>Subheading - Section Overview</h2>
+          <p>HTML provides the structural backbone for web documents. Every valid document relies on semantic elements to organize content effectively.</p>
+          <p>Using proper heading levels hierarchy ensures that content remains readable, accessible, and easily navigable by web browsers and assistive technologies.</p>
+        </section>
 
-        <h3>Detailed Topic - Clickable Image Link</h3>
-        <p>Click the image below to visit Holberton School:</p>
+        <section class="content-card">
+          <h3>Detailed Topic - Clickable Image Link</h3>
+          <p>Click the image below to visit Holberton School:</p>
 
-        <a href="https://www.holbertonschool.com" target="_blank">
-          <img src="https://www.holbertonschool.com/holberton-logo.png" alt="Holberton School Logo">
-        </a>
+          <a href="https://www.holbertonschool.com" target="_blank" class="image-wrapper">
+            <img src="https://www.holbertonschool.com/holberton-logo.png" alt="Holberton School Logo">
+          </a>
+        </section>
       </article>
 
       <aside>
