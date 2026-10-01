@@ -18,3 +18,13 @@ aside {
     flex: 1;
     overflow-y: auto;
 }
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+}
+
+body.works_on_smartphone main {
+    flex-direction: column;
+}
